@@ -1,0 +1,28 @@
+{
+    "name": "rdfquads"
+  , "version": "0.0.1"
+  , "description": "Simple NQuad Parser for node"
+  , "author": "Charles Care <cpc@talis.com>"
+  , "contributors": [
+        { "name": "Charles Care", "email": "cpc@talis.com" }
+    ]
+  , "repository":{
+        "type": "git"
+      , "url": "https://github.com/talis/rdfquads.js.git"
+    }
+  , "dependencies": {
+	"lazy": "1.0.7"
+    }
+  , "devDependencies": {
+	  "expresso": "0.9.0",
+	  "nodemock": "0.2.14"
+    }
+  , "main": "lib/quadParser"
+  , "engines": { "node": ">= 0.4.0" }
+  , "scripts" : {
+        "test" : "expresso -I lib",
+        "coverage" : "rm -r lib-cov; jscoverage lib lib-cov && expresso -I lib-cov"
+    }
+}
+
+
