@@ -11,7 +11,7 @@
       , "url": "https://github.com/talis/rdfquads.js.git"
     }
   , "dependencies": {
-	"lazy": "1.0.7"
+	"lazy": "1.0.11"
     }
   , "devDependencies": {
 	  "expresso": "0.9.0",
